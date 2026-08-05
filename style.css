@@ -1,0 +1,62 @@
+body { font-family: Arial, sans-serif; text-align: center; padding: 30px; }
+input { padding: 8px; font-size: 16px; margin: 0 5px; }
+button { padding: 8px 16px; font-size: 16px; cursor: pointer; }
+#result { margin-top: 20px; }
+#result img { width: 150px; }
+
+.hidden { display: none; }
+
+.mode-toggle { margin-bottom: 20px; }
+.mode-btn {
+    background: #eee;
+    border: 1px solid #ccc;
+    margin: 0 4px;
+}
+.mode-btn.active {
+    background: #ff0526;
+    border-color: #3b4cca;
+    font-weight: bold;
+}
+
+.compare-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.compare-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+}
+
+.compare-card img { width: 150px; }
+
+#historySection {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+#historyList {
+    list-style: none;
+    padding: 0;
+}
+
+.history-item {
+    display: inline-block;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 4px 12px;
+    margin: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.history-item:hover {
+    background: #ff053b;
+}
